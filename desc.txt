@@ -1,0 +1,11 @@
+Spring In Action, rozdział 2, strona 60
+
+mvn archetype:generate -DgroupId=pl.kkolcz.common -DartifactId=SpringExamples -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false
+
+Jak uruchomić aplikację springa z command line?
+Zacząłem czytać o spring-boot:
+https://docs.spring.io/spring-boot/docs/current/reference/html/getting-started-installing-spring-boot.html#getting-started-installing-the-cli
+Jest też plugin maven:
+http://docs.spring.io/spring-boot/docs/current/maven-plugin/usage.html
+
+Jak zrobić paczkę jar?
