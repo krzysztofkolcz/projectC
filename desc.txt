@@ -50,6 +50,8 @@ na:
 pomogło dodanie kolejnych dependencies.
 zmiana na roota i spowrotem na usera (jakiś problem z uprawnieniami do .m2?)
 
+mvn test
+wszystko działa
 
 java -jar target/Soundsystem-1.0-SNAPSHOT.jar 
 no main manifest attribute, in target/Soundsystem-1.0-SNAPSHOT.jar
