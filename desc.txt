@@ -25,7 +25,33 @@ http://stackoverflow.com/questions/6315781/maven-error-annotations-are-not-suppo
 Jak uruchomić aplikację springa z command line?
 Zacząłem czytać o spring-boot:
 https://docs.spring.io/spring-boot/docs/current/reference/html/getting-started-installing-spring-boot.html#getting-started-installing-the-cli
+https://docs.spring.io/spring-boot/docs/current/reference/html/cli-using-the-cli.html
+
 Jest też plugin maven:
 http://docs.spring.io/spring-boot/docs/current/maven-plugin/usage.html
 
 Jak zrobić paczkę jar?
+
+
+Zacząłem czytać:
+http://spring.io/blog/2011/01/17/green-beans-getting-started-with-maven-and-spring/
+https://spring.io/blog/2010/11/30/maven-configuration-for-spring-integration
+
+wystarczy:
+mvn clean install
+
+Problemy:
+-nie chciał pobrać bibliotek.
+Pomogła zmiana
+    <artifactId>spring</artifactId>
+na:
+    <artifactId>spring-core</artifactId>
+
+pomogło dodanie kolejnych dependencies.
+zmiana na roota i spowrotem na usera (jakiś problem z uprawnieniami do .m2?)
+
+
+java -jar target/Soundsystem-1.0-SNAPSHOT.jar 
+no main manifest attribute, in target/Soundsystem-1.0-SNAPSHOT.jar
+
+
