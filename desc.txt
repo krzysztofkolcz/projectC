@@ -59,3 +59,5 @@ no main manifest attribute, in target/Soundsystem-1.0-SNAPSHOT.jar
 Muszę spróbować 
 https://spring.io/guides/gs/maven/
 i zdefiniować klasę z metodą main
+
+Reszta w katalogu SpringInAction/chapter02
